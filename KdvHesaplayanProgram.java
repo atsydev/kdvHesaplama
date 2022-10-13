@@ -14,7 +14,7 @@ public class KdvHesaplayanProgram {
         double kdv8= ucret*1.08;
         double kdvliFiyat= ucret>1000 ? kdv8 : kdv18;
 
-        System.out.println(kdvliFiyat);
+        System.out.println("Urunun Kdv'li tutarı: " + kdvliFiyat);
 
     }
 }
